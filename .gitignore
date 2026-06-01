@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual env
+.venv/
+venv/
+
+# Tests
+.pytest_cache/
+
+# Personal data — never commit real statements
+*statement*.csv
+!data/sample_statement.csv
